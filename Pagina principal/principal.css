@@ -4,8 +4,9 @@ body {
 }
 header {
     background-color:rgb(28, 28, 73);
-    padding: 13px;
+    padding: 10px;
     margin: 0px;  
+    background-image: url("img/fondo_header.jpg");
 }
 
 nav {
@@ -17,11 +18,11 @@ nav {
 
 nav > button {
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 157, 255);
+    background-color: rgb(5, 92, 142);
+    border: 1px solid white;
     height: 50px;
     width: 200px;
     border-radius: 200px;
-    border: 0;
     text-decoration: none;
     padding: 1em;
     margin: 0 0.5em;
@@ -31,3 +32,15 @@ nav > button {
 nav button:hover {
     background-color:   rgba(28, 0, 186, 0.357);
 }
+
+.logo {
+    position:relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {left: -400px;}
+    to {left: 0px;}
+  }
+
