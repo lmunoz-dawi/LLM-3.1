@@ -1,15 +1,56 @@
-.header {
-    background-color: aqua;
-    width: 100%;
-    height: 200px;
+body {
+    padding: 0;
+    margin:0;
+}
+header {
+    background-color:rgb(28, 28, 73);
+    padding: 10px;
+    margin: 0px;  
+    background-image: url("../img/fondo_header.jpg");
 }
 
+nav {
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 92, 142);
+    border: 1px solid white;
+    height: 50px;
+    width: 200px;
+    border-radius: 200px;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    
+}
+
+nav button:hover {
+    background-color:   rgba(0, 130, 186, 0.357);
+}
+
+.logo {
+    position:relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {left: -400px;}
+    to {left: 0px;}
+  }
+
 .table {
-    border: 1px black solid;
+    border: 1px blue solid;
     margin: 5px;
     height: 500px;
     width: 1000px;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
+    background-color: cadetblue;
 }
