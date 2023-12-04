@@ -1,12 +1,16 @@
 body {
     padding: 0;
     margin:0;
+    background-image: url(./img/rosetonprueba.png);
+    background-size: 200px;
+    background-color: rgb(5, 92, 142, 0.521);
 }
 header {
     background-color:rgb(28, 28, 73);
     padding: 10px;
     margin: 0px;  
-    background-image: url("../img/fondo_header.jpg");
+    background-image: url("../../img/fondo_header.jpg");
+    margin-bottom: 20px;
 }
 
 nav {
@@ -44,13 +48,33 @@ nav button:hover {
     to {left: 0px;}
   }
 
+
+section {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .table {
     border: 1px blue solid;
-    margin: 5px;
-    height: 500px;
-    width: 1000px;
-    margin-left: 15%;
-    margin-right: 15%;
+    height: 600px;
+    width: 100%;
     text-align: center;
+    background-color: rgb(183, 230, 231);
+}
+.columna1, .fila1 { 
     background-color: cadetblue;
 }
+td:hover {
+    background-color: rgb(50, 218, 221);
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    background-color: rgb(5, 92, 142);
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+
