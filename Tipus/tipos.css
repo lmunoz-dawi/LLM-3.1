@@ -137,7 +137,7 @@ p, h1{
     align-items: center;
     font-size: 30px;
     color: white;
-    border: 1px solid white;
+    margin-bottom: 1px;
 }
 
 .alojamientos {
@@ -148,26 +148,31 @@ p, h1{
     background-image:url(./img/hotel.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .div_izquierda_2 {
     background-image:url(./img/villa.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .div_derecha_3 {
     background-image:url(./img/apartamento.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .div_izquierda_4 {
     background-image:url(./img/hostal.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .div_derecha_5 {
     background-image:url(./img/agroturismo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .div1,.div2,.div3,.div4,.div5 {
     width: 100%;
@@ -192,7 +197,21 @@ p, h1{
     justify-content: space-around;
     align-items: center;
     font-size: 20px;
+    background-color: aquamarine;
 }
+/* Divs de Imagenes */
 .div_derecha_1,.div_izquierda_2,.div_derecha_3,.div_izquierda_4,.div_derecha_5 {
-    padding: 0px;
+
+}
+.alojamientos > div > p > a{
+    display: flex;
+    margin-top: 250px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    opacity:0%;
 }
