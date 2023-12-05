@@ -1,9 +1,6 @@
 body {
     padding: 0;
     margin:0;
-    background-image: url(./img/rosetonprueba.png);
-    background-size: 200px;
-    background-color: rgb(5, 92, 142, 0.521);
 }
 header {
     background-color:rgb(28, 28, 73);
@@ -55,7 +52,6 @@ nav>button>a {
 
 
 section {
-    display: flex;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -75,18 +71,18 @@ td:hover {
 }
 
 footer {
-    text-align: center;
-    margin-top: 10px;
     display: flex;
     width: 100%;
-    text-align: center;
-    color: black;
     background-color: rgb(5, 92, 142);
     margin: 0;
     height: 50px;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
-    border-bottom: 1px;
+}
+footer > p > a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
 }
