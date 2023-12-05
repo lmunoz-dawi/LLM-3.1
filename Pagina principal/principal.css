@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 /* Estilos de todos los titulos de la pagina */
@@ -15,12 +15,13 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-  }
+}
+
 /* Todo los estilos del header y del nav que son la barra de menu superior */
 header {
-    background-color:rgb(28, 28, 73);
+    background-color: rgb(28, 28, 73);
     padding: 10px;
-    margin: 0px;  
+    margin: 0px;
     background-image: url("../img/fondo_header.jpg");
 }
 
@@ -31,7 +32,7 @@ nav {
     align-items: center;
 }
 
-nav > button {
+nav>button {
     color: rgb(255, 255, 255);
     background-color: rgb(5, 92, 142);
     border: 1px solid white;
@@ -41,14 +42,13 @@ nav > button {
     text-decoration: none;
     padding: 1em;
     margin: 0 0.5em;
-    
 }
 
 nav button:hover {
-    background-color:   rgba(0, 130, 186, 0.357);
+    background-color: rgba(0, 130, 186, 0.357);
 }
 
-nav > button > a {
+nav>button>a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -84,57 +84,68 @@ nav > button > a {
 }
 
 .segundoh1:hover {
-    background-color:   rgba(0, 130, 186, 0.357);
-    color:#000;
+    background-color: rgba(0, 130, 186, 0.357);
+    color: #000;
 }
 
 .atracciones {
     display: flex;
     flex-wrap: wrap;
 }
+
 .div_izquierda_1 {
-    background-image:url(./img_principal/palma.jpg);
+    background-image: url(./img_principal/palma.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .div_derecha_1 {
-    background-image:url(./img_principal/sierra-de-tramuntana.jpg);
+    background-image: url(./img_principal/sierra-de-tramuntana.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .div_izquierda_2 {
-    background-image:url(./img_principal/sierra-de-tramuntana.jpg);
+    background-image: url(./img_principal/sierra-de-tramuntana.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .div_derecha_2 {
-    background-image:url(./img_principal/cuevas-del-drach.jpg);
+    background-image: url(./img_principal/cuevas-del-drach.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.div1,.div2 {
+
+.div1,
+.div2 {
     width: 100%;
     height: 290px;
     display: flex;
 }
+
 /*Divs Izquierdos y derechos*/
-.div_izquierda_1,.div_izquierda_2,.div_derecha_1,.div_derecha_2 {
+.div_izquierda_1,
+.div_izquierda_2,
+.div_derecha_1,
+.div_derecha_2 {
     width: 50%;
     height: 290px;
     display: flex;
 }
 
 /*Divs de Texto*/
-.div_izquierda_1,.div_derecha_2 {
+.div_izquierda_1,
+.div_derecha_2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
 }
 
-.div_izquierda_1 > div {
+.div_izquierda_1>div {
     background-color: rgba(93, 234, 253, 0.358);
-    text-decoration:dotted;
+    text-decoration: dotted;
     width: 100%;
     height: 100%;
     display: flex;
@@ -145,72 +156,81 @@ nav > button > a {
 
 }
 
-.div_izquierda_1:hover > div {
+.div_izquierda_1:hover>div {
     visibility: visible;
     animation-duration: 1s;
     animation-name: transparencia;
-    
+
 }
 
+
 @keyframes transparencia {
-    from {transform: scale(0.5);}
+    from {
+        transform: scale(0.5);
+    }
 }
 
 /* Estilos del logo, para que se deslice y ajustar su tamaño */
 
 .logo {
-    position:relative;
+    position: relative;
     animation-name: logo;
     animation-duration: 4s;
-  }
-  
-  @keyframes logo {
-    from {left: -400px;}
-    to {left: 0px;}
-  }
+}
 
-  .sobre_nosotros {
+@keyframes logo {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.sobre_nosotros {
     text-align: center;
     margin-top: 20px;
-  }
+}
 
-  .nosotros {
+.nosotros {
     text-align: center;
-  }
+}
 
-  /* Estilos del formulario de contacto */
+/* Estilos del formulario de contacto */
 
-  form {
+form {
     width: 500px;
     margin: 0 auto;
-  }
-  
-  .campo {
+}
+
+.campo {
     margin-bottom: 10px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     font-weight: bold;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #000;
     color: #fff;
     padding: 15px 20px;
     border-radius: 5px;
-  }
+}
 
-  /* estilos del footer */
+/* estilos del footer */
 
-footer{
+footer {
     text-align: center;
     margin-top: 10px;
 }
