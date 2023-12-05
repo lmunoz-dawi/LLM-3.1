@@ -7,7 +7,7 @@ header {
     background-color:rgb(28, 28, 73);
     padding: 10px;
     margin: 0px;  
-    background-image: url("./img/fondo_header.jpg");
+    background-image: url("../img/fondo_header.jpg");
 }
 
 nav {
