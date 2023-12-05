@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin:0;
 }
+
+
 header {
     background-color:rgb(28, 28, 73);
     padding: 10px;
@@ -31,6 +33,11 @@ nav > button {
 
 nav button:hover {
     background-color:   rgba(0, 130, 186, 0.357);
+}
+
+nav>button>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .logo {
@@ -139,4 +146,21 @@ h1 {
 .alojamientos > div > div:hover > p > a {
     opacity: 100%;
     background-color: rgba(34, 189, 189, 0.438);
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: rgb(5, 92, 142);
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px;
 }

@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: none;
+}
+
 /* Estilos de todos los titulos de la pagina */
 
 h1 {
@@ -53,7 +58,7 @@ nav>button>a {
     text-decoration: none;
 }
 
-.primerh1 {
+.primerh1, .segundoh1 {
     display: flex;
     width: 100%;
     text-align: center;
@@ -68,19 +73,8 @@ nav>button>a {
     border-bottom: 1px;
 }
 
-.segundoh1 {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    color: black;
-    background-color: rgb(5, 92, 142);
-    margin: 0;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: white;
-    border-bottom: 1px;
+.segundoh1 > a{
+    color:#fff
 }
 
 .segundoh1:hover {
@@ -106,7 +100,7 @@ nav>button>a {
 }
 
 .div_izquierda_2 {
-    background-image: url(./img_principal/sierra-de-tramuntana.jpg);
+    background-image: url(./img_principal/cala_dor.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -136,15 +130,18 @@ nav>button>a {
 
 /*Divs de Texto*/
 .div_izquierda_1,
-.div_derecha_2 {
+.div_derecha_2,
+.div_izquierda_2,
+.div_derecha_1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
+    font-weight: bold;
 }
 
-.div_izquierda_1>div {
-    background-color: rgba(93, 234, 253, 0.358);
+.transicion>div {
+    background-color: rgba(93, 234, 253, 0.514);
     text-decoration: dotted;
     width: 100%;
     height: 100%;
@@ -156,7 +153,12 @@ nav>button>a {
 
 }
 
-.div_izquierda_1:hover>div {
+.transicion > div > a{
+    color: #000;
+    text-decoration: none;
+}
+
+.transicion:hover>div {
     visibility: visible;
     animation-duration: 1s;
     animation-name: transparencia;
@@ -226,6 +228,8 @@ input[type="submit"] {
     color: #fff;
     padding: 15px 20px;
     border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
 }
 
 /* estilos del footer */
@@ -233,4 +237,16 @@ input[type="submit"] {
 footer {
     text-align: center;
     margin-top: 10px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: rgb(5, 92, 142);
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px;
 }
