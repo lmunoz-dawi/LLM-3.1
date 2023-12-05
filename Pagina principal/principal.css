@@ -195,6 +195,7 @@ nav>button>a {
     width: 50%;
     margin-left: 25%;
 }
+
 .sobre_nosotros {
     text-align: center;
     margin-top: 20px;
@@ -257,8 +258,16 @@ footer {
     color: white;
     margin-top: 10px;
 }
+
 footer > p > a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bolder;
+
+}
+
+footer > p > a > img {
+    height:22px;
+    margin-left:3px;
+    align-items: center;
 }
