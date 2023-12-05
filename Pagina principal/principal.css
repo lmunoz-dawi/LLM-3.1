@@ -190,6 +190,10 @@ nav>button>a {
     }
 }
 
+.divsobrenosotros {
+    width: 50%;
+    margin-left: 25%;
+}
 .sobre_nosotros {
     text-align: center;
     margin-top: 20px;
@@ -197,6 +201,7 @@ nav>button>a {
 
 .nosotros {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Estilos del formulario de contacto */
@@ -235,18 +240,20 @@ input[type="submit"] {
 /* estilos del footer */
 
 footer {
-    text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     width: 100%;
-    text-align: center;
-    color: black;
     background-color: rgb(5, 92, 142);
     margin: 0;
     height: 50px;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
-    border-bottom: 1px;
+    margin-top: 10px;
+}
+footer > p > a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
 }
