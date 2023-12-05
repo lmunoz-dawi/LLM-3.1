@@ -119,18 +119,18 @@ div > ul > li > a {
 }
 
 footer {
-    text-align: center;
-    margin-top: 10px;
     display: flex;
     width: 100%;
-    text-align: center;
-    color: black;
     background-color: rgb(5, 92, 142);
     margin: 0;
     height: 50px;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
-    border-bottom: 1px;
+}
+footer > p > a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
 }

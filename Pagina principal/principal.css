@@ -240,7 +240,6 @@ input[type="submit"] {
 /* estilos del footer */
 
 footer {
-    margin-top: 50px;
     display: flex;
     width: 100%;
     background-color: rgb(5, 92, 142);
