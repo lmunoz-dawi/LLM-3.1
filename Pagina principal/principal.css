@@ -58,7 +58,8 @@ nav>button>a {
     text-decoration: none;
 }
 
-.primerh1, .segundoh1 {
+.primerh1,
+.segundoh1 {
     display: flex;
     width: 100%;
     text-align: center;
@@ -73,8 +74,8 @@ nav>button>a {
     border-bottom: 1px;
 }
 
-.segundoh1 > a{
-    color:#fff
+.segundoh1>a {
+    color: #fff
 }
 
 .segundoh1:hover {
@@ -153,7 +154,7 @@ nav>button>a {
 
 }
 
-.transicion > div > a{
+.transicion>div>a {
     color: #000;
     text-decoration: none;
 }
@@ -204,6 +205,11 @@ nav>button>a {
 form {
     width: 500px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .campo {
