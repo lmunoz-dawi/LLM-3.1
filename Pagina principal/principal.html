@@ -2,63 +2,92 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="principal.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="autor" content="Luis Muños, Rafael Urzeda">
-    <meta name="keywords" content="hotel, alojamiento, alquiler turístico, casa vacacional, apartamento, villa, bungalow, hostal, refugio, camping, albergue, ubicación, destino, región, ciudad, pueblo, playa, montaña, campo, lago, río, monumento, museo, evento, oferta, descuento, promoción, reserva, contacto">
-    <link rel="icon" type="image/x-icon" href="../img/isla.png">
-    <title>RacoMallorqui.com</title>
+  <link rel="stylesheet" href="principal.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="autor" content="Luis Muños, Rafael Urzeda">
+  <meta name="keywords" content="hotel, alojamiento, alquiler turístico, casa vacacional, apartamento, villa, bungalow, hostal, refugio,
+     camping, albergue, ubicación, destino, región, ciudad, pueblo, playa, montaña, campo, lago, río, monumento, museo, 
+     evento, oferta, descuento, promoción, reserva, contacto">
+  <link rel="icon" type="image/x-icon" href="../img/isla.png">
+  <title>RacoMallorqui.com</title>
 </head>
 
 <body>
-    <header>
-      <nav class="nav">
-          <a href="./principal.html">
-          <img src="../img/RacoMallorqui.png" alt="Logo" height="120px" width="320px" class="logo"></a>
-          <button>Categorias</button>
-          <button>Municipios</button>
-          <button>Tipos</button>
-          <button>Sobre nosotros</button>
-          <button>Contactanos</button>
-      </nav>
-    </header>
-    <section>
-        <h1>Alojamientos en Palma de Mallorca</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Categoría</th>
-        <th>Hotel</th>
-        <th>Hostal</th>
-        <th>Piso alquiler turístico</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Lujo</td>
-        <td><ul><li>Hotel 5 estrellas</li><li>Hotel 4 estrellas</li></ul></td>
-        <td><ul><li>Hostal 3 estrellas</li><li>Hostal 2 estrellas</li></ul></td>
-        <td><ul><li>Piso alquiler turístico de lujo</li></ul></td>
-      </tr>
-      <tr>
-        <td>Estándar</td>
-        <td><ul><li>Hotel 3 estrellas</li><li>Hotel 2 estrellas</li></ul></td>
-        <td><ul><li>Hostal 1 estrella</li></ul></td>
-        <td><ul><li>Piso alquiler turístico estándar</li></ul></td>
-      </tr>
-      <tr>
-        <td>Económico</td>
-        <td><ul><li>Hotel 1 estrella</li><li>Hotel sin estrellas</li></ul></td>
-        <td><ul></ul></td>
-        <td><ul><li>Piso alquiler turístico económico</li></ul></td>
-      </tr>
-    </tbody>
-  </table>
-    </section>
-    <footer>
-        Copyright © [2023] [Raco Mallorqui SL]. Todos los derechos reservados.
-    </footer>
+  <!-- el header es el menu de la pagina, con los links a las distintas partes de la pagina-->
+  <header>
+    <nav class="nav">
+      <a href="./principal.html">
+        <img src="../img/RacoMallorqui.png" alt="Logo" height="120px" width="320px" class="logo"></a>
+      <button>Categorias</button>
+      <button>Municipios</button>
+      <button>Tipos</button>
+      <button><a href="#sobre_nosotros"> Sobre nosotros</button></a>
+      <button><a href="#contactanos"> Contactanos</button></a>
+    </nav>
+    <!-- principales atracciones turisticas que dan link sus enunciados a la pagina de los hoteles de esa zona -->
+  </header>
+  <section class="section">
+    <h1 class="primerh1">Atracciones turisticas Mallorca</h1>
+    <div class="atracciones">
+      <div class="div1">
+        <div class="div_izquierda_1" class="transicion">
+          <div> <a href="../"></a>
+            <h1>Palma de Mallorca</h1>
+            <p>
+              asdnbhjsadbvbhuiaefgdnvbughsdsduahgsdvoghawuisfguagiodv
+            </p>
+          </div>
+        </div>
+        <div class="div_derecha_1" class="transicion">
+          <p><a href="">Ir a Palma de Mallorca</a></p>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="div_izquierda_2" class="transicion">
+          <p><a href="">Ir a Villas</a></p>
+        </div>
+        <div class="div_derecha_2" class="transicion">
+          <h1>Coves del Drach</h1>
+          <p>¡La opción perfecta para una estancia con privacidad y lujo!</p>
+        </div>
+      </div>
+      <h1 class="segundoh1">Ir a Municipios</h1>
+  </section>
+  <!-- aqui va la informacion sobre nosotros y sobre la pagina -->
+  <div>
+    <h1 class="sobre_nosotros"><a name="sobre_nosotros">Sobre nosotros </h1></a>
+    <br>
+    <p class="nosotros">
+      En Racó Mallorquí, nos apasiona Mallorca y nos encanta ayudar a los viajeros a descubrir la isla. Nuestro
+      equipo de expertos en viajes tiene una amplia experiencia en la isla y puede ayudarte a encontrar el alojamiento
+      perfecto para tu viaje.
+
+      Ofrecemos una amplia gama de alojamientos turísticos en Mallorca, desde hoteles de lujo hasta apartamentos y casas
+      de vacaciones. Todos nuestros alojamientos están cuidadosamente seleccionados para garantizar que nuestros
+      clientes tengan una experiencia inolvidable.
+    </p>
+  </div>
+  <!-- este es el formulario de contacto -->
+  <h1><a name="contactanos">Contactanos</a></h1>
+  <form action="https://www.cifpfbmoll.eu/" method="post">
+    <div class="campo">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+    </div>
+    <div class="campo">
+      <label for="email">Correo electrónico</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="campo">
+      <label for="mensaje">Mensaje</label>
+      <textarea name="mensaje" id="mensaje"></textarea>
+    </div>
+    <input type="submit" value="Enviar">
+  </form>
+  <footer>
+    Copyright © [2023] [Raco Mallorqui SL]. Todos los derechos reservados.
+  </footer>
 </body>
 
 </html>
