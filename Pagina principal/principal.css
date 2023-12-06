@@ -17,7 +17,9 @@ h1 {
     color: rgb(5, 92, 142);
     margin-top: 0;
     margin-bottom: 20px;
+    display: flex;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -87,6 +89,8 @@ nav>button>a {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* estilos de las 4 imagenes y sus enlaces */
 
 .div_izquierda_1 {
     background-image: url(./img_principal/palma.jpg);
@@ -211,11 +215,6 @@ nav>button>a {
 form {
     width: 500px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
 }
 
 .campo {
@@ -244,7 +243,7 @@ input[type="submit"] {
     width: 100%;
 }
 
-/* estilos del footer */
+/* estilos del footer y de las imagenes y enlaces del footer*/
 
 footer {
     display: flex;

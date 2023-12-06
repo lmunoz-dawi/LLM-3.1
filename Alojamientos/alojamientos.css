@@ -1,12 +1,15 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
+/* Todo los estilos del header y del nav que son la barra de menu superior */
+
 header {
-    background-color:rgb(28, 28, 73);
+    background-color: rgb(28, 28, 73);
     padding: 10px;
-    margin: 0px;  
+    margin: 0px;
     background-image: url("../img/fondo_header.jpg");
 }
 
@@ -17,7 +20,7 @@ nav {
     align-items: center;
 }
 
-nav > button {
+nav>button {
     color: rgb(255, 255, 255);
     background-color: rgb(5, 92, 142);
     border: 1px solid white;
@@ -27,11 +30,15 @@ nav > button {
     text-decoration: none;
     padding: 1em;
     margin: 0 0.5em;
-    
 }
 
 nav button:hover {
-    background-color:   rgba(0, 130, 186, 0.357);
+    background-color: rgba(0, 130, 186, 0.357);
+}
+
+nav>button>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .logo {
@@ -45,6 +52,95 @@ nav button:hover {
     to {left: 0px;}
   }
 
-  footer{
+
+/* Estilos de los nombres de los alojamientos */
+
+h1 {
+    display: flex;
+    width: 100%;
     text-align: center;
+    color: black;
+    background-color: rgb(5, 92, 142);
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px;
+}
+
+/* estilos informacion de los alojamientos */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+}
+
+div > div{
+    width: 80%;
+    height: 300px;
+    margin-inline-start: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    object-fit: cover;
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+div > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+section > div > button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+}
+
+button > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* estilos del footer y de las imagenes y enlaces del footer*/
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(5, 92, 142);
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+footer > p > a > img {
+    height:22px;
+    margin-left:3px;
+    align-items: center;
 }
