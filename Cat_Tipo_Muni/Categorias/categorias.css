@@ -7,7 +7,6 @@ header {
     padding: 10px;
     margin: 0px;  
     background-image: url("../../img/fondo_header.jpg");
-    margin-bottom: 20px;
 }
 
 nav {
@@ -51,25 +50,70 @@ nav>button>a {
   }
 
 
-section {
-    margin-left: 20%;
-    margin-right: 20%;
+.div_table {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
 .table {
-    border: 1px blue solid;
     height: 600px;
     width: 100%;
     text-align: center;
-    background-color: rgb(183, 230, 231);
 }
 .columna1, .fila1 { 
     background-color: cadetblue;
+    font-size: 20px;
 }
 td:hover {
     background-color: rgb(50, 218, 221);
 }
 
+.div_h1 {
+    display: flex;
+    text-align: center;
+    color: black;
+    background-color: rgb(5, 92, 142);
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1px;
+}
+ a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+
+.div_generales {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.div_generales > div > h1 {
+    text-align: center;
+}
+
+div > ul > li a:hover {
+    color: rgb(88, 88, 235);
+    font-weight: bolder;
+}
+
+.izquierda,.central,.derecha {
+    width: 33%;
+    height: 350px;
+}
+.izquierda > ul > li,.central > ul > li,.derecha > ul > li {
+    margin-bottom: 10px;
+}
+.central {
+    border-left: 1px solid rgb(5,92,142);
+    border-right: 1px solid rgb(5,92,142);
+}
 footer {
     display: flex;
     width: 100%;
@@ -80,9 +124,4 @@ footer {
     align-items: center;
     font-size: 15px;
     color: white;
-}
-footer > p > a {
-    text-decoration: none;
-    color:black;
-    font-weight: bolder;
 }
