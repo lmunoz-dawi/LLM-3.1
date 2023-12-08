@@ -60,7 +60,7 @@ nav>button>a {
 
 /* Estilos de los nombres de los alojamientos */
 
-h1 {
+/* h1 {
     
     width: 100%;
     text-align: center;
@@ -75,11 +75,11 @@ h1 {
     justify-content: center;
     align-items: center;
     
-}
+} */
 
 /* estilos informacion de los alojamientos */
 
-section {
+/* section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -138,11 +138,84 @@ img {
 button > a {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 
 /* estilos del footer y de las imagenes y enlaces del footer*/
 
+.primerh1 {
+    display: flex;
+    text-align: center;
+    color: black;
+    background-color: rgb(5, 92, 142);
+    margin-top: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.div_general {
+    display: flex;
+    width: 100%;
+    background-color: rgb(106, 154, 199);
+}
+.div_izquierda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 700px;
+    padding: 20px;
+}
+.izquierda_izquierda, .izquierda_derecha,.abajo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.div_derecha {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.div_derecha_pequeño {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(0, 130, 186, 0.357);
+    box-shadow: rgb(106, 106, 199) 0 0 10px  ;
+    background-color: rgb(175, 175, 211);
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    align-content: space-around;
+}
+.div_derecha_pequeño > button {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    border-color: blue;
+    background-color: rgb(186, 186, 214);
+    font-size: 20px;
+}
+.div_derecha_pequeño > button:hover {
+    background-color: rgb(108, 108, 236);
+    color: wheat;
+}
+
+.mapah1 {
+    margin-left: 200px;
+}
+.iframe {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 footer {
     display: flex;
     width: 100%;
@@ -153,14 +226,15 @@ footer {
     align-items: center;
     font-size: 15px;
     color: white;
-    margin-top: 10px;
 }
-
 footer > p > a {
     text-decoration: none;
-    color: black;
+    color:black;
     font-weight: bolder;
-
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 
 footer > p > a > img {

@@ -24,19 +24,19 @@
             <button><a href="../../Pagina principal/principal.html #contactanos"> Contactanos</button></a>
         </nav>
     </header>
-    <h1 class="nombre_hotel">Iberostar Selection Playa de Palma</h1>
+    <!-- <h1 class="nombre_hotel">Iberostar Selection Playa de Palma</h1>
     <section>
         <div class="imagenes">
             <div class="imgs-arriba">
                 <div id="img-1">
-                    <img src="../img/iberostar_palma/exterior_hotel.jpg" alt="">
+                    <img src="./img_iberostar/exterior_hotel.jpg" alt="">
                 </div>
                 <div id="img-2">
-                    <img src="../img/iberostar_palma/interior_habitacion.jpg" alt="">
+                    <img src="./img_iberostar/interior_habitacion.jpg" alt="">
                 </div>
             </div>
             <div class="img-abajo">
-                <img id="img-3" src="../img/iberostar_palma/Interior_hotel.jpg"></div>
+                <img id="img-3" src="./img_iberostar/Interior_hotel.jpg"></div>
             </div>
         </div>
         <div class="precio-info">
@@ -50,7 +50,48 @@
         </div>
     </section>
     <hr>
-    <p>aqui va la descripcion y el mapa de la ubicacion del hotel</p>
+    <p>aqui va la descripcion y el mapa de la ubicacion del hotel</p> -->
+    <section>
+        <div class="primerh1">
+            <h1><a href="https://www.iberostar.com/en/hotels/majorca/iberostar-playa-de-palma/?utm_source=google&utm_medium=organic&utm_campaign=IBSVOL_EMEA_SEOLOC_GMB_NA_EN_ESP_BAL_PMI_PDP_PULL_NA_NA_NA_NA_NA" target="_blank">Iberostar Selection Playa de Palma</a></h1>
+        </div>
+        <div class="div_general">
+            <div class="div_izquierda">
+                <div class="izquierda_izquierda">
+                    <img src="./img_iberostar/exterior_hotel.jpg" alt="exterior_hotel" width="90%" height="90%" class="imagenes">
+                </div>
+                <div class="izquierda_derecha">
+                    <img src="./img_iberostar/interior_habitacion.jpg" alt="interior_habitacion" width="90%" height="90%" class="imagenes">
+                </div>
+                <div class="abajo">
+                    <img src="./img_iberostar/Interior_hotel.jpg" alt="Interior_hotel" width="90%" height="90%" class="imagenes">
+                </div>
+            </div>
+            <div class="div_derecha">
+                <div class="div_derecha_pequeño">
+                    <h1>123€ / noche</h1>
+                    <form action="https://www.iberostar.com/en/hotels/majorca/iberostar-playa-de-palma/?utm_source=google&utm_medium=organic&utm_campaign=IBSVOL_EMEA_SEOLOC_GMB_NA_EN_ESP_BAL_PMI_PDP_PULL_NA_NA_NA_NA_NA" method="post">
+                        <label for="datellegada">Llegada</label>
+                        <input type="date" id="datellegada" name="datellegada" value="<?php echo date("Y-m-d");?> <!--Con este comando de value, pillamos la funcion de date() de php-->
+                        <label for="datesalida">Salida</label>
+                        <input type="date" id="datesalida" name="datesalida" value="<?php echo date("Y-m-d");?>
+                        <label for="personas">Personas</label>
+                        <input type="number" name="personas" id="personas" max="4" min="1" value="1">
+                    </form>
+                    <button type="submit" value="Reservar" class="boton_reserva">Reservar</button>
+                </div>
+            </div>    
+        </div>
+
+        <div class="mapa">
+            <div class="mapah1">
+                <h1><u>Mapa</u></h1>
+            </div>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.9420616252676!2d2.7362879405817457!3d39.52389040545378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129796627670738f%3A0xea184f20c8e469fa!2sCarrer%20de%20Marbella%2C%2036%2C%2007610%20Palma%2C%20Illes%20Balears!5e0!3m2!1ses!2ses!4v1701986696459!5m2!1ses!2ses" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
     <footer>
         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
             <span property="dct:title">Racó Mallorquí</span> by <span property="cc:attributionName">Luis Muñoz Rafael
