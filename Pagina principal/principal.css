@@ -258,16 +258,16 @@ footer {
     margin-top: 10px;
 }
 
-footer > p > a {
+footer>p>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
 
 }
 
-footer > p > a > img {
-    height:22px;
-    margin-left:3px;
+footer>p>a>img {
+    height: 22px;
+    margin-left: 3px;
     align-items: center;
 }
 
@@ -277,6 +277,7 @@ footer > p > a > img {
         padding: 0;
         padding-bottom: 5px;
     }
+
     nav {
         width: 390px;
         flex-wrap: wrap;
@@ -284,67 +285,88 @@ footer > p > a > img {
         align-items: center;
         padding: 0;
     }
+
     nav>button {
         height: 50px;
         width: 100px;
     }
+
     nav>button>a {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .logo {
         width: 390px;
         height: 150px;
     }
-    .primerh1, .segundoh1 {
+
+    .primerh1,
+    .segundoh1 {
         font-size: 20px;
         width: 390px;
     }
+
     .atracciones {
         width: 390px;
     }
+
     .div1 {
         width: 390px;
         flex-direction: column;
     }
+
     .div2 {
         width: 390px;
         flex-direction: column;
     }
-    .div_izquierda_1,.div_derecha_1,.div_izquierda_2,.div_derecha_2 {
+
+    .div_izquierda_1,
+    .div_derecha_1,
+    .div_izquierda_2,
+    .div_derecha_2 {
         width: 390px;
     }
+
     .divsobrenosotros {
         width: 390px;
         margin-left: 0;
     }
+
     .nosotros {
         width: 390px;
     }
+
     form {
         width: 390px;
     }
+
     input[type="submit"] {
         width: 300px;
         margin-left: 40px;
     }
+
     .campo {
         width: 390px;
         text-align: center;
     }
+
     input {
         width: 300px;
     }
+
     textarea {
         width: 350px;
     }
+
     footer {
         width: 390px;
         text-align: center;
         font-size: 10px;
     }
-    footer > p > a > img {
+
+    footer>p>a>img {
         height: 15px;
     }
 }

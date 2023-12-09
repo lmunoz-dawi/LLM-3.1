@@ -47,15 +47,20 @@ nav>button>a {
 }
 
 .logo {
-    position:relative;
+    position: relative;
     animation-name: example;
     animation-duration: 4s;
-  }
-  
-  @keyframes example {
-    from {left: -400px;}
-    to {left: 0px;}
-  }
+}
+
+@keyframes example {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
 
 .primerh1 {
     display: flex;
@@ -77,6 +82,7 @@ nav>button>a {
     width: 100%;
     background-color: rgb(106, 154, 199);
 }
+
 .div_izquierda {
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +91,10 @@ nav>button>a {
     height: 700px;
     padding: 20px;
 }
-.izquierda_izquierda, .izquierda_derecha,.abajo {
+
+.izquierda_izquierda,
+.izquierda_derecha,
+.abajo {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -93,24 +102,27 @@ nav>button>a {
     justify-content: center;
     align-items: center;
 }
+
 .div_derecha {
     display: flex;
     width: 40%;
     justify-content: center;
     align-items: center;
 }
+
 .div_derecha_pequeño {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid rgba(0, 130, 186, 0.357);
-    box-shadow: rgb(106, 106, 199) 0 0 10px  ;
+    box-shadow: rgb(106, 106, 199) 0 0 10px;
     background-color: rgb(175, 175, 211);
     height: 400px;
     width: 500px;
     justify-content: center;
     align-content: space-around;
 }
-.div_derecha_pequeño > button {
+
+.div_derecha_pequeño>button {
     width: 200px;
     height: 50px;
     border-radius: 100px;
@@ -118,41 +130,49 @@ nav>button>a {
     background-color: rgb(186, 186, 214);
     font-size: 20px;
 }
-.div_derecha_pequeño > button:hover{
+
+.div_derecha_pequeño>button:hover {
     background-color: rgb(108, 108, 236);
     color: wheat;
 }
-.div_derecha_pequeño > button:hover > a{
+
+.div_derecha_pequeño>button:hover>a {
     color: wheat;
 }
 
-.descripcion_hotel{
+.descripcion_hotel {
     margin: 50px;
 }
-.descripcion_hotel_h1{
+
+.descripcion_hotel_h1 {
     display: flex;
     text-align: center;
     justify-content: center;
 }
+
 .mapa {
     background-color: rgb(106, 154, 199);
     padding-top: 10px;
     padding-bottom: 15px;
 }
+
 .mapah1 {
     margin-left: 200px;
     color: white;
 }
+
 .iframe {
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
 iframe {
     border: 1px solid white;
     width: 1500px;
     height: 450px;
 }
+
 footer {
     display: flex;
     width: 100%;
@@ -164,22 +184,25 @@ footer {
     font-size: 15px;
     color: white;
 }
-footer > p > a {
+
+footer>p>a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bolder;
 }
+
 button>a {
     color: black;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
 
-footer > p > a > img {
-    height:22px;
-    margin-left:3px;
+footer>p>a>img {
+    height: 22px;
+    margin-left: 3px;
     align-items: center;
 }
 
@@ -190,11 +213,13 @@ footer > p > a > img {
         padding: 0;
         margin: 0;
     }
+
     header {
         width: 390px;
         padding: 0;
         padding-bottom: 5px;
     }
+
     nav {
         width: 390px;
         flex-wrap: wrap;
@@ -202,77 +227,96 @@ footer > p > a > img {
         align-items: center;
         padding: 0;
     }
+
     nav>button {
         height: 50px;
         width: 100px;
     }
+
     nav>button>a {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .logo {
         width: 390px;
         height: 150px;
     }
+
     .primerh1 {
         font-size: 10px;
         width: 390px;
     }
-    .div_general{
+
+    .div_general {
         width: 390px;
         display: block;
         padding: 0px;
     }
+
     .div_izquierda {
         width: 390px;
         display: block;
-        padding:0px;
+        padding: 0px;
         margin-bottom: 200px;
     }
-    .izquierda_izquierda, .izquierda_derecha,.abajo {
+
+    .izquierda_izquierda,
+    .izquierda_derecha,
+    .abajo {
         width: 390px;
         height: 300px;
     }
+
     .div_derecha {
         display: flex;
         width: 390px;
         padding-bottom: 10px;
     }
-    .div_derecha_pequeño{
+
+    .div_derecha_pequeño {
         height: 200px;
         width: 250px;
         padding: 5%;
     }
-    .div_derecha_pequeño > form {
+
+    .div_derecha_pequeño>form {
         width: 200px;
     }
-    .div_derecha_pequeño > button {
+
+    .div_derecha_pequeño>button {
         width: 150px;
         height: 40px;
         font-size: 15px;
     }
+
     .descripcion_hotel {
         margin: 0px;
         width: 390px;
     }
+
     .mapa {
         width: 390px;
     }
+
     .mapah1 {
         margin-left: 0;
         text-align: center;
     }
+
     iframe {
         width: 370px;
         height: 400px;
     }
+
     footer {
         width: 390px;
         text-align: center;
         font-size: 10px;
     }
-    footer > p > a > img {
+
+    footer>p>a>img {
         height: 15px;
     }
-}    
+}

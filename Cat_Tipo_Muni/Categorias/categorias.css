@@ -1,11 +1,12 @@
 body {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
+
 header {
-    background-color:rgb(28, 28, 73);
+    background-color: rgb(28, 28, 73);
     padding: 10px;
-    margin: 0px;  
+    margin: 0px;
     background-image: url("../../img/fondo_header.jpg");
 }
 
@@ -16,7 +17,7 @@ nav {
     align-items: center;
 }
 
-nav > button {
+nav>button {
     color: rgb(255, 255, 255);
     background-color: rgb(5, 92, 142);
     border: 1px solid white;
@@ -26,11 +27,11 @@ nav > button {
     text-decoration: none;
     padding: 1em;
     margin: 0 0.5em;
-    
+
 }
 
 nav button:hover {
-    background-color:   rgba(0, 130, 186, 0.357);
+    background-color: rgba(0, 130, 186, 0.357);
 }
 
 nav>button>a {
@@ -39,15 +40,20 @@ nav>button>a {
 }
 
 .logo {
-    position:relative;
+    position: relative;
     animation-name: example;
     animation-duration: 4s;
-  }
-  
-  @keyframes example {
-    from {left: -400px;}
-    to {left: 0px;}
-  }
+}
+
+@keyframes example {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
 
 
 .div_table {
@@ -57,15 +63,19 @@ nav>button>a {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .table {
     height: 600px;
     width: 100%;
     text-align: center;
 }
-.columna1, .fila1 { 
+
+.columna1,
+.fila1 {
     background-color: cadetblue;
     font-size: 20px;
 }
+
 td:hover {
     background-color: rgb(50, 218, 221);
 }
@@ -83,9 +93,10 @@ td:hover {
     color: white;
     margin-bottom: 1px;
 }
- a {
+
+a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bolder;
 }
 
@@ -94,30 +105,41 @@ td:hover {
     width: 100%;
     justify-content: space-around;
 }
-.div_generales > div > h1 {
+
+.div_generales>div>h1 {
     text-align: center;
 }
 
-div > ul > li a:hover {
+div>ul>li a:hover {
     color: rgb(88, 88, 235);
     font-weight: bolder;
 }
 
-.izquierda,.central,.derecha {
+.izquierda,
+.central,
+.derecha {
     width: 33%;
     height: 350px;
 }
-.izquierda > h1, .central > h1 , .derecha > h1 {
+
+.izquierda>h1,
+.central>h1,
+.derecha>h1 {
     border-bottom: 1px solid rgb(5, 92, 142);
     height: 35px;
 }
-.izquierda > ul > li,.central > ul > li,.derecha > ul > li {
+
+.izquierda>ul>li,
+.central>ul>li,
+.derecha>ul>li {
     margin-bottom: 10px;
 }
+
 .central {
-    border-left: 1px solid rgb(5,92,142);
-    border-right: 1px solid rgb(5,92,142);
+    border-left: 1px solid rgb(5, 92, 142);
+    border-right: 1px solid rgb(5, 92, 142);
 }
+
 footer {
     display: flex;
     width: 100%;
@@ -130,17 +152,19 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 390px) and (max-height: 844px){
+@media screen and (max-width: 390px) and (max-height: 844px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         padding: 0;
         margin: 0;
     }
+
     header {
         width: 390px;
         padding: 0;
         padding-bottom: 5px;
     }
+
     nav {
         width: 390px;
         flex-wrap: wrap;
@@ -148,19 +172,23 @@ footer {
         align-items: center;
         padding: 0;
     }
+
     nav>button {
         height: 50px;
         width: 100px;
     }
+
     nav>button>a {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .logo {
         width: 390px;
         height: 150px;
     }
+
     .div_table {
         width: 390px;
         padding-left: 0px;
@@ -169,101 +197,135 @@ footer {
         margin-top: 0px;
         font-size: 10px;
     }
+
     .table {
         width: 390px;
         height: 300px;
     }
-    .columna1,.fila1 {
+
+    .columna1,
+    .fila1 {
         font-size: 10px;
     }
-    .div_h1{
+
+    .div_h1 {
         height: 25px;
     }
+
     .div_generales {
         width: 390px;
     }
-    .izquierda,.central,.derecha {
+
+    .izquierda,
+    .central,
+    .derecha {
         width: 130px;
     }
+
     #general1 {
-        height: 550px ;
-    }
-    #general1 > .central {
         height: 550px;
     }
-    #general1 > .izquierda {
+
+    #general1>.central {
         height: 550px;
     }
-    #general1 > .derecha {
+
+    #general1>.izquierda {
         height: 550px;
     }
+
+    #general1>.derecha {
+        height: 550px;
+    }
+
     #general2 {
-        height: 300px ;
-    }
-    #general2 > .central {
         height: 300px;
     }
-    #general2 > .izquierda {
+
+    #general2>.central {
         height: 300px;
     }
-    #general2 > .derecha {
+
+    #general2>.izquierda {
         height: 300px;
     }
+
+    #general2>.derecha {
+        height: 300px;
+    }
+
     #general3 {
-        height: 100px ;
-    }
-    #general3 > .central {
         height: 100px;
     }
-    #general3 > .izquierda {
+
+    #general3>.central {
         height: 100px;
     }
-    #general3 > .derecha {
+
+    #general3>.izquierda {
         height: 100px;
     }
+
+    #general3>.derecha {
+        height: 100px;
+    }
+
     #general4 {
-        height: 150px ;
-    }
-    #general4 > .central {
         height: 150px;
     }
-    #general4 > .izquierda {
+
+    #general4>.central {
         height: 150px;
     }
-    #general4 > .derecha {
+
+    #general4>.izquierda {
         height: 150px;
     }
+
+    #general4>.derecha {
+        height: 150px;
+    }
+
     #general5 {
-        height: 150px ;
-    }
-    #general5 > .central {
         height: 150px;
     }
-    #general5 > .izquierda {
+
+    #general5>.central {
         height: 150px;
     }
-    #general5 > .derecha {
+
+    #general5>.izquierda {
         height: 150px;
     }
-    div > h1 {
+
+    #general5>.derecha {
+        height: 150px;
+    }
+
+    div>h1 {
         font-size: 15px;
     }
-    li > a {
+
+    li>a {
         font-size: 15px;
     }
+
     ul {
         margin: 0px;
         padding: 5px;
     }
+
     li {
         list-style: none;
     }
+
     footer {
         width: 390px;
         text-align: center;
         font-size: 10px;
     }
-    footer > p > a > img {
+
+    footer>p>a>img {
         height: 15px;
     }
 }
